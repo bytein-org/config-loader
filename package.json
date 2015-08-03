@@ -1,0 +1,22 @@
+{
+  "name": "@bytein/config-loader",
+  "version": "0.1.0",
+  "description": "Simple configuration loader from JSON-formatted files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bytein-org/config-loader.git"
+  },
+  "keywords": [
+    "configuration"
+  ],
+  "author": "Milan Pavkovic <pauk960@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bytein-org/config-loader/issues"
+  },
+  "homepage": "https://github.com/bytein-org/config-loader"
+}
