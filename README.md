@@ -2,14 +2,21 @@
 
 __config-loader__ is a simple configuration loader that loads configuration from JSON file and passes it to a callback function.
 
-## Use
-
-Create a config/default.json inside your application folder.
+## Installation
 
 ```
-var config = require('config-loader');
+npm install @bytein/config-loader
+```
 
-config.load(function(conf) {
+## Use
+
+Create a `config/default.json` inside your application folder.
+
+```javascript
+var configLoader = require('config-loader');
+
+configLoader.load(function(err, config) {
+    if(err) throw err;
     // console.log(conf);
 }
 ```
