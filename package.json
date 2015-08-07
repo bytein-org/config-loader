@@ -1,10 +1,10 @@
 {
   "name": "@bytein/config-loader",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple configuration loader from JSON-formatted files.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/bytein-org/config-loader/issues"
   },
-  "homepage": "https://github.com/bytein-org/config-loader"
+  "homepage": "https://github.com/bytein-org/config-loader",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
 }
