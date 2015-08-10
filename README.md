@@ -18,5 +18,5 @@ var configLoader = require('config-loader');
 configLoader.load(function(err, config) {
     if(err) throw err;
     // console.log(config);
-}
+});
 ```
